@@ -27,9 +27,9 @@ const scholarships = [
 
 const BeasiswaTerbaru = () => {
   return (
-    <main className="flex-grow p-6">
+    <main className="flex-grow p-7 bg-orange-400 rounded-lg">
       <section>
-        <h2 className="text-3xl font-semibold mb-6 text-center">Beasiswa Terbaru</h2>
+        <h2 className="text-3xl font-semibold mb-6 text-center text-white">Beasiswa Terbaru</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {scholarships.map((scholarship) => (
             <div

@@ -1,6 +1,6 @@
 const Regis = () => {
   return (
-    <section className="mt-10">
+    <section className="mt-10 mb-20">
       <h2 className="text-3xl font-semibold mb-4">Form Pendaftaran Beasiswa</h2>
       <form className="bg-white p-6 rounded-lg shadow-md">
         <div className="mb-4">

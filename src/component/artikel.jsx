@@ -23,7 +23,7 @@ const articles = [
 
 const Artikel = () => {
   return (
-    <section className="p-6 bg-gray-50">
+    <section className="p-6 bg-orange-400 rounded-lg">
       {/* Poster Section */}
       <div className="relative mb-8">
         <img 
@@ -44,7 +44,7 @@ const Artikel = () => {
           <div key={article.id} className="bg-white p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105">
             <h3 className="font-bold text-xl mb-2">{article.title}</h3>
             <p className="text-gray-700 mb-4">{article.description}</p>
-            <a href={article.link} className="text-blue-600 hover:underline">
+            <a href="/artikel" className="text-blue-600 hover:underline">
               Baca selengkapnya &rarr;
             </a>
           </div>
